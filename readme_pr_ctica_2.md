@@ -1,3 +1,5 @@
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=Jose-VenTor/MMP2)
+
 # Práctica 2 — Caos en sistemas biológicos
 
 Repositorio académico de la asignatura **Modelado Matemático / Gemelos Digitales**, correspondiente a la **Maestría en Ciencias de la Ingeniería** del Tecnológico Nacional de México / Instituto Tecnológico de Tijuana. La práctica integra modelado matemático de sistemas biológicos no lineales de tercer orden, análisis cualitativo de estabilidad local y global, localización de conjuntos compactos invariantes, comparación de métodos numéricos de diferencias finitas y simulación computacional en MATLAB.

@@ -137,7 +137,7 @@ $$
 Por lo tanto, el dominio
 
 $$
-\mathbb{R}_{+,0}^{3} = \left\{ (x,y,z) \in \mathbb{R}^{3} \mid x \geq 0,\; y \geq 0,\; z \geq 0 \right\}
+\mathbb{R}_{+,0}^{3} = \left\[ (x,y,z) \in \mathbb{R}^{3} \mid x \geq 0,\; y \geq 0,\; z \geq 0 \right\]
 $$
 
 es **positivamente invariante** para todo $t \geq 0$.
@@ -177,9 +177,9 @@ Mediante funciones localizadoras $h_i$ y derivadas de Lie ($L_f h_i = \nabla h_i
 
 | Variable | Función localizadora | Conjunto $S(h_i) = \{L_f h_i = 0\}$ | Intervalo invariante $K_i$ |
 |---|:---:|---|---|
-| $x(t)$ | $h_1 = x$ | $\left\{x = \dfrac{1}{b_1} - \dfrac{a_{12}}{b_1 r_1}y - \dfrac{a_{13}}{b_1 r_1}z\right\} \cup \{x=0\}$ | $K_x = \left\{0 \leq x(t) \leq \dfrac{1}{b_1}\right\}$ |
-| $y(t)$ | $h_2 = y$ | $\left\{y = \dfrac{1}{b_2} - \dfrac{a_{21}}{b_2 r_2}x\right\} \cup \{y=0\}$ | $K_y = \left\{0 \leq y(t) \leq \dfrac{1}{b_2}\right\}$ |
-| $z(t)$ | $h_3 = z$ | $\left\{z = \dfrac{\rho}{d_3} + \dfrac{r_3 - a_{31}}{d_3}xz\right\}$ *(con $r_3 - a_{31} > 0$)* | $K_z = \left\{z(t) \geq \dfrac{\rho}{d_3}\right\}$ |
+| $x(t)$ | $h_1 = x$ | $\left\[x = \dfrac{1}{b_1} - \dfrac{a_{12}}{b_1 r_1}y - \dfrac{a_{13}}{b_1 r_1}z\right\] \cup \{x=0\}$ | $K_x = \left\[0 \leq x(t) \leq \dfrac{1}{b_1}\right\]$ |
+| $y(t)$ | $h_2 = y$ | $\left\[y = \dfrac{1}{b_2} - \dfrac{a_{21}}{b_2 r_2}x\right\] \cup \{y=0\}$ | $K_y = \left\[0 \leq y(t) \leq \dfrac{1}{b_2}\right\]$ |
+| $z(t)$ | $h_3 = z$ | $\left\[z = \dfrac{\rho}{d_3} + \dfrac{r_3 - a_{31}}{d_3}xz\right\]$ (con $r_3 - a_{31} > 0$) | $K_z = \left\[z(t) \geq \dfrac{\rho}{d_3}\right\]$ |
 
 ### 5. Estabilidad asintótica global (Método directo de Lyapunov)
 
@@ -231,7 +231,7 @@ $$
 \end{aligned}
 $$
 
-*(Nota: Para optimizar el almacenamiento y graficación sin perder precisión numérica con pasos $dt \in \{10^{-4}, 10^{-3}\}$, la función submuestrea la salida a una frecuencia de $h = 10$ puntos por unidad de tiempo).*
+*(Nota: Para optimizar el almacenamiento y graficación sin perder precisión numérica con pasos* $dt \in \[10^{-4}, 10^{-3}\]$*, la función submuestrea la salida a una frecuencia de* $h = 10$ *puntos por unidad de tiempo).*
 
 [Volver al contenido](#contenido)
 
